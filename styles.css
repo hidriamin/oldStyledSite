@@ -1,0 +1,288 @@
+body {
+    background-image: url(aaa/starstwinkle.gif);
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#main {
+    background-color: black;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+
+.left-icon,
+.right-icon {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+}
+
+.left-icon {
+    margin-right: auto;
+}
+
+.right-icon {
+    margin-left: auto;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+
+
+.center {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: #b6b4b4;
+    background-color: #5e5a5a;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid #333;
+    border-radius: 3px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a img {
+    width: 10px;
+    /* Adjust the width as needed */
+    height: 10px;
+    /* Adjust the height as needed */
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.portfolio {
+    padding: 20px;
+    background-color: #000000;
+    color: wheat;
+}
+
+.portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio-links li {
+    margin-bottom: 10px;
+}
+
+.portfolio-links a {
+    color: #0a1dcb;
+    text-decoration: none;
+}
+
+.portfolio-links a:hover {
+    color: #06eae2;
+    text-decoration: underline;
+}
+
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* Adjust the height as needed */
+    background-color: black;
+}
+
+.centered-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.about-info {
+    margin: 05px 20px 5px 20px;
+}
+
+.about h2 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin-bottom: 10px;
+    color: bisque
+}
+
+.horizontal-bar {
+    cursor: pointer;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.horizontal-bar img {
+    width: 100%;
+}
+
+.home-section {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+.home-section p {
+    font-size: 16px;
+    color: white
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form button[type="submit"] .send-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 5px;
+    border: 1px solid #333;
+    background-color: #f9f9f9;
+}
+
+button[type="submit"] {
+    padding: 10px 0px;
+    background-color: #333331;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #f30404;
+}
+
+.home-section {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.home-img {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+    margin-right: 20px;
+}
+
+.home-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
